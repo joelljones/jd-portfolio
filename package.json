@@ -1,14 +1,18 @@
 {
-  "name": "photog",
+  "name": "jd-portfolio",
   "version": "1.0.0",
   "description": "photography portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://joelljones.github.io/jd-portfolio",
   "devDependencies": {
     "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
